@@ -15,7 +15,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
         <motion.h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-          Habtamu Kiflu
+          Habtamu Kifilu
         </motion.h1>
         <button
           onClick={() => setDarkMode(!darkMode)}
