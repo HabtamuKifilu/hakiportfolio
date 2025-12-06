@@ -19,7 +19,7 @@ function CrystalOrb() {
   return (
     <Float speed={2} rotationIntensity={1} floatIntensity={2}>
       <mesh ref={ref}>
-        <sphereGeometry args={[2.5, 64, 64]} />
+       {/* <sphereGeometry args={[2.5, 64, 64]} /> */}
         <meshPhysicalMaterial
           color="#2f2b10"
           roughness={0}
